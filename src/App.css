@@ -1,0 +1,70 @@
+.todoApp {
+    border: 2px solid black;
+    width: 400px;
+    min-height: 85vh;
+    position: relative;
+}
+.header {
+    background-color: #aa01da;
+    color: white;
+    padding: 5%;
+    text-align: center;
+}
+.header input {
+    padding: 10px 5px;
+    outline: none;
+    margin: 5% 0;
+    width: 70%;
+    border: none;
+}
+.header button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #aae4fc;
+    color: #212529;
+}
+
+.inputArea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todoList li {
+    list-style: none;
+    padding: 2px;
+}
+
+.singleTodo {
+    width: 100%;
+    padding: 10px;
+}
+.lists li:hover {
+    color: white;
+    background-color: #3a6fef;
+}
+
+.lists li {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f4feff;
+    padding: 5px;
+}
+
+.lists button {
+    border: none;
+    background: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#allDelete {
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
